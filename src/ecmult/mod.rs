@@ -15,7 +15,7 @@ pub struct ECMultContext {
 
 /// Context for accelerating the computation of a*G.
 pub struct ECMultGenContext {
-    prec: [[AffineStorage; 16]; 64],
+    prec: [[AffineStorage; 16]; 32],
     blind: Scalar,
     initial: Jacobian,
 }
