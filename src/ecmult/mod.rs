@@ -3,7 +3,7 @@ use field::Field;
 use scalar::Scalar;
 
 pub const WINDOW_A: usize = 5;
-pub const WINDOW_G: usize = 13;
+pub const WINDOW_G: usize = 12;
 pub const ECMULT_TABLE_SIZE_A: usize = 1 << (WINDOW_A - 2);
 pub const ECMULT_TABLE_SIZE_G: usize = 1 << (WINDOW_G - 2);
 pub const WNAF_BITS: usize = 256;
